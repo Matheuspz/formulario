@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Picolé</title>
+</head>
+<body>
+    
+    <fieldset> 
+        <legend> Dados Pessoais </legend>
+        Nome:
+        <input type="text" class="caixa_larga" id="descricao">
+        <br> <br>
+        Endereço:
+        <input type="text" class="caixa_larga" id="preco">
+        <br> <br>
+        Cidade:
+        <input type="text" class="caixa_larga" id="fornecedor">
+        <br> <br>
+        Estado:
+        <select id="estado">
+            <option>Paraná</option>
+            <option selected>São Paulo</option>
+        </select>
+    </fieldset>
+
+<br> <br>
+
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        Natureza do Cargo:
+        <br>
+        <input type="radio" class="cargos" id="gerencia" name="sabores">
+        Gerência
+        <input type="radio" class="cargos" id="financeiro" name="sabores">
+        Financeiro
+        <input type="radio" class="cargos" id="recepcao" name="sabores">
+        Recepção
+        <input type="radio" class="cargos" id="administrativo" name="sabores">
+        Administrativo
+        <input type="radio" class="cargos" id="juridico" name="sabores">
+        Juridico
+
+        <br> <br>
+
+        Área de Interesse:
+        <br>
+        <input type="checkbox" class="areas" id="computacao">Computação
+        <input type="checkbox" class="areas" id="biologia">Biologia
+        <input type="checkbox" class="areas" id="meio_ambiente">Meio Ambiente
+        <input type="checkbox" class="areas" id="engenharia">Engenharia
+        <input type="checkbox" class="areas" id="historia">História
+        <br> <br>
+        
+        Mini-Curriculo
+        <br>
+        <textarea class="texto" id="curriculo"></textarea>
+
+    </fieldset>
+
+<br>
+
+    <div class="botoes">
+        <button>ENVIAR</button>
+        <button>LIMPAR</button>
+    </div>
+
+</body>
+</html>
